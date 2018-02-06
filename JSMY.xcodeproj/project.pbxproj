@@ -8,11 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9518E8A01FD9475D0012D4D8 /* shenhe.docx in Resources */ = {isa = PBXBuildFile; fileRef = 9518E89A1FD9475C0012D4D8 /* shenhe.docx */; };
-		9518E8A11FD9475D0012D4D8 /* Packaging.log in Resources */ = {isa = PBXBuildFile; fileRef = 9518E89C1FD9475D0012D4D8 /* Packaging.log */; };
-		9518E8A21FD9475D0012D4D8 /* HYC.ipa in Resources */ = {isa = PBXBuildFile; fileRef = 9518E89D1FD9475D0012D4D8 /* HYC.ipa */; };
-		9518E8A31FD9475D0012D4D8 /* ExportOptions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9518E89E1FD9475D0012D4D8 /* ExportOptions.plist */; };
-		9518E8A41FD9475D0012D4D8 /* DistributionSummary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9518E89F1FD9475D0012D4D8 /* DistributionSummary.plist */; };
 		953C84E41F7C0B46005DF696 /* dadasdas da ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 953C84E31F7C0B46005DF696 /* dadasdas da ViewController.m */; };
+		95E6B74C2029A09E000C7BF9 /* JSDemoVC14.m in Sources */ = {isa = PBXBuildFile; fileRef = 95E6B74B2029A09E000C7BF9 /* JSDemoVC14.m */; };
 		BA67057E1F224E790024247D /* VddadadaaiewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA67057D1F224E790024247D /* VddadadaaiewController.m */; };
 		BA8E62E21F079D0D00EE7040 /* NSObject+JSProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E62E11F079D0D00EE7040 /* NSObject+JSProgressHUD.m */; };
 		BA8E62E81F079FA100EE7040 /* UIViewController+JSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA8E62E71F079FA100EE7040 /* UIViewController+JSAlertView.m */; };
@@ -178,14 +175,12 @@
 
 /* Begin PBXFileReference section */
 		9518E89A1FD9475C0012D4D8 /* shenhe.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = shenhe.docx; sourceTree = "<group>"; };
-		9518E89C1FD9475D0012D4D8 /* Packaging.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Packaging.log; sourceTree = "<group>"; };
-		9518E89D1FD9475D0012D4D8 /* HYC.ipa */ = {isa = PBXFileReference; lastKnownFileType = file; path = HYC.ipa; sourceTree = "<group>"; };
-		9518E89E1FD9475D0012D4D8 /* ExportOptions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ExportOptions.plist; sourceTree = "<group>"; };
-		9518E89F1FD9475D0012D4D8 /* DistributionSummary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DistributionSummary.plist; sourceTree = "<group>"; };
 		953C84DA1F7C075C005DF696 /* JSProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSProfileViewController.h; sourceTree = "<group>"; };
 		953C84DB1F7C075C005DF696 /* JSProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSProfileViewController.m; sourceTree = "<group>"; };
 		953C84E21F7C0B46005DF696 /* dadasdas da ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dadasdas da ViewController.h"; sourceTree = "<group>"; };
 		953C84E31F7C0B46005DF696 /* dadasdas da ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "dadasdas da ViewController.m"; sourceTree = "<group>"; };
+		95E6B74A2029A09E000C7BF9 /* JSDemoVC14.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDemoVC14.h; sourceTree = "<group>"; };
+		95E6B74B2029A09E000C7BF9 /* JSDemoVC14.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDemoVC14.m; sourceTree = "<group>"; };
 		BA67057C1F224E790024247D /* VddadadaaiewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VddadadaaiewController.h; sourceTree = "<group>"; };
 		BA67057D1F224E790024247D /* VddadadaaiewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VddadadaaiewController.m; sourceTree = "<group>"; };
 		BA8E62E01F079D0D00EE7040 /* NSObject+JSProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSProgressHUD.h"; sourceTree = "<group>"; };
@@ -517,17 +512,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9518E89B1FD9475D0012D4D8 /* HYC 2017-12-05 14-19-53 */ = {
-			isa = PBXGroup;
-			children = (
-				9518E89C1FD9475D0012D4D8 /* Packaging.log */,
-				9518E89D1FD9475D0012D4D8 /* HYC.ipa */,
-				9518E89E1FD9475D0012D4D8 /* ExportOptions.plist */,
-				9518E89F1FD9475D0012D4D8 /* DistributionSummary.plist */,
-			);
-			path = "HYC 2017-12-05 14-19-53";
-			sourceTree = "<group>";
-		};
 		953C84C91F7C064A005DF696 /* Other */ = {
 			isa = PBXGroup;
 			children = (
@@ -577,6 +561,8 @@
 		953C84D11F7C06EC005DF696 /* JSVc */ = {
 			isa = PBXGroup;
 			children = (
+				95E6B74A2029A09E000C7BF9 /* JSDemoVC14.h */,
+				95E6B74B2029A09E000C7BF9 /* JSDemoVC14.m */,
 			);
 			path = JSVc;
 			sourceTree = "<group>";
@@ -1254,7 +1240,6 @@
 			isa = PBXGroup;
 			children = (
 				9518E89A1FD9475C0012D4D8 /* shenhe.docx */,
-				9518E89B1FD9475D0012D4D8 /* HYC 2017-12-05 14-19-53 */,
 				C675D9561F0496BA00F1C9C8 /* JSBaseProjectNoti.h */,
 				C6A60DD01F035476002FD1FF /* Assets.xcassets */,
 				C6A60DC51F035475002FD1FF /* main.m */,
@@ -1753,20 +1738,16 @@
 				9518E8A01FD9475D0012D4D8 /* shenhe.docx in Resources */,
 				C6A610411F03AA86002FD1FF /* Lato-ThinItalic.ttf in Resources */,
 				C6A60DD11F035476002FD1FF /* Assets.xcassets in Resources */,
-				9518E8A21FD9475D0012D4D8 /* HYC.ipa in Resources */,
 				C6A6103D1F03AA86002FD1FF /* Lato-Bold.ttf in Resources */,
 				C63365F71F06467F00BA516A /* Info.plist in Resources */,
 				C6A60F5F1F03AA86002FD1FF /* Localizable.strings in Resources */,
 				C6A60F5E1F03AA86002FD1FF /* InfoPlist.strings in Resources */,
 				C6A6103F1F03AA86002FD1FF /* Lato-Regular.ttf in Resources */,
 				C633663F1F064B3500BA516A /* IQKeyboardManager.bundle in Resources */,
-				9518E8A11FD9475D0012D4D8 /* Packaging.log in Resources */,
 				C63368C31F067FC600BA516A /* MJRefresh.bundle in Resources */,
 				C6A6103E1F03AA86002FD1FF /* Lato-Light.ttf in Resources */,
 				C6A610401F03AA86002FD1FF /* Lato-Thin.ttf in Resources */,
 				C6A60F5D1F03AA86002FD1FF /* area.plist in Resources */,
-				9518E8A41FD9475D0012D4D8 /* DistributionSummary.plist in Resources */,
-				9518E8A31FD9475D0012D4D8 /* ExportOptions.plist in Resources */,
 				BAEA69FB1F07727B0040E89A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1803,6 +1784,7 @@
 				C63368D31F067FC600BA516A /* SDWebImageDownloaderOperation.m in Sources */,
 				BA8E62FA1F089BCC00EE7040 /* JSKit_Const_Color.m in Sources */,
 				C63368111F067AF000BA516A /* AFHTTPSessionManager.m in Sources */,
+				95E6B74C2029A09E000C7BF9 /* JSDemoVC14.m in Sources */,
 				C63368141F067AF000BA516A /* AFURLRequestSerialization.m in Sources */,
 				C675D99C1F04EF5400F1C9C8 /* JSWebViewController.m in Sources */,
 				C63366371F064B3500BA516A /* IQKeyboardManager.m in Sources */,

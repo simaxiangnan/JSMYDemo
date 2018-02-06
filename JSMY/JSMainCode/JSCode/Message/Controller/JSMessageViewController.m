@@ -10,6 +10,7 @@
 #import "JSMessageViewModel.h"
 #import "JSMessageModel.h"
 #import "JSMessageViewCell.h"
+#import "JSDemoVC14.h"
 
 @interface JSMessageViewController ()<UITableViewDelegate,UITableViewDataSource
 >
@@ -128,6 +129,7 @@
     [self addCell:@"12、BAAlert 各种自定义弹框" content:@"各种自定义弹框，系统的、自定义的弹框，如果喜欢，请在git上点个星吧！" class:@"DemoVC12"];
     [self addCell:@"13、GCD入门" content:@"GCD入门学习，小白可以看，大神自行绕过！如果喜欢，请在git上点个星吧！" class:@"DemoVC13"];
     [self addCell:@"14、OC的set/get 方法的区别！" content:@"OC的set/get 方法的区别！，小白可以看，大神自行绕过！如果喜欢，请在git上点个星吧！" class:@"DemoVC14"];
+    [self addCell:@"15、iOS面试题" content:@"iOS面试题！，小白可以看，大神自行绕过！如果喜欢，请在git上点个星吧！" class:@"JSDemoVC15"];
 }
 
 - (void)addCell:(NSString *)title content:(NSString *)content class:(NSString *)className
@@ -180,6 +182,11 @@
     // 获取ViewModel模型
     JSMessageViewModel *subViewFrame = self.statusFrames[indexPath.row];
     return subViewFrame.cellHeight;
+}
+
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    JSDemoVC14 *Vc = [[JSDemoVC14 alloc] init];
+    [self.navigationController pushViewController:Vc animated:YES];
 }
 
 #pragma mark - ***** 解决tableview的分割线短一截
